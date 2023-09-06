@@ -13,7 +13,8 @@ html {
 
 .container,
 .aboutUs,
-.our-projects {
+.our-projects,
+.gallery {
   scroll-snap-align: center;
 }
 
@@ -262,9 +263,33 @@ a:hover {
 }
 
 .project img {
-  max-width: 15rem;
-  max-height: 15rem;
+  max-width: 16rem;
+  max-height: 12rem;
   border-radius: 0.25rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+/* Gallery */
+
+.gallery {
+  background: #000;
+  height: 100vh;
+}
+
+.gallery-heading {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.gallery h2 {
+  color: var(--primary);
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+img:hover {
+  scale: 1.1;
+  transition: all 0.5s ease-in-out;
 }
