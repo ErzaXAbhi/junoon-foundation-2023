@@ -8,6 +8,13 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+}
+
+.container,
+.aboutUs,
+.our-projects {
+  scroll-snap-align: center;
 }
 
 :root {
@@ -39,7 +46,7 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.4);
   width: 100%;
   height: 100%;
 }
@@ -59,13 +66,16 @@ video {
   font-size: 2rem;
   font-weight: 500;
   line-height: 0.9;
+  visibility: hidden;
+  margin-left: 2rem;
 }
 
 .menu {
   display: flex;
   align-items: center;
   margin: 1rem;
-  margin-left: 48rem;
+  margin-left: 40rem;
+  visibility: hidden;
 }
 
 ul li {
@@ -81,7 +91,7 @@ a {
 }
 
 a:hover {
-  color: #000;
+  color: var(--secondary);
   scale: 2;
 }
 
@@ -94,18 +104,27 @@ a:hover {
   margin-top: 5rem;
 }
 
-p {
+.hero-header p {
   color: var(--primary);
   font-size: 1.1rem;
   font-weight: 500;
   text-align: center;
   width: 45%;
+  visibility: hidden;
 }
 
-h1 {
+.hero-header h1 {
   font-size: 6rem;
   color: var(--primary);
   font-weight: 500;
+  visibility: hidden;
+}
+
+.hero-header h3 {
+  color: var(--primary);
+  font-weight: 500;
+  visibility: hidden;
+  font-size: 2rem;
 }
 
 .btn {
@@ -119,9 +138,133 @@ h1 {
   font-size: 1rem;
   margin-top: 2rem;
   cursor: pointer;
+  visibility: hidden;
 }
 
 .btn:hover {
   background: #000;
   transition: all 0.5s ease-in-out;
+}
+
+/* about us */
+
+.black-screen {
+  background: #000;
+  height: 40vh;
+}
+
+.aboutUs {
+  background: #000;
+  height: 100vh;
+}
+
+.about-heading {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.aboutUs h2 {
+  color: var(--primary);
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.about-info {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-info p {
+  color: var(--primary);
+  width: 80%;
+  font-weight: 500;
+}
+
+.about-img {
+  display: flex;
+  justify-content: center;
+}
+
+.about-img img {
+  max-width: 80%;
+  max-height: 100%;
+  border-radius: 0.25rem;
+}
+
+.btn-about {
+  width: 10rem;
+  height: 2.5rem;
+  background: var(--secondary);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.btn-about:hover {
+  background: var(--primary);
+  color: #000;
+  transition: all 0.5s ease-in-out;
+}
+
+/* projects */
+
+.our-projects {
+  background: #000;
+  height: 100vh;
+}
+
+.project-heading {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.our-projects h2 {
+  color: var(--primary);
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary);
+  max-width: 30%;
+  border-radius: 0.25rem;
+}
+
+.project h4 {
+  color: var(--primary);
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.project p {
+  color: var(--primary);
+  width: 90%;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.project img {
+  max-width: 15rem;
+  max-height: 15rem;
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
