@@ -12,7 +12,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="./js/lightbox-plus-jquery.min.js" defer></script>
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
   </head>
   <body>
     <!-- Hero -->
@@ -53,7 +61,7 @@
     </div>
 
     <!-- About us -->
-    <section class="aboutUs">
+    <section class="aboutUs reveal">
       <div class="about-container">
         <h2 class="about-heading">About US</h2>
         <div class="about-info">
@@ -83,7 +91,7 @@
     </section>
 
     <!-- Projects -->
-    <section class="our-projects">
+    <section class="our-projects reveal">
       <h2 class="project-heading">Our Projects</h2>
       <div class="projects">
         <div class="project">
@@ -123,8 +131,109 @@
 
     <!-- Gallery -->
 
-    <section class="gallery">
+    <section class="gallery reveal">
       <h2 class="gallery-heading">Gallery</h2>
+      <div
+        class="fotorama"
+        data-width="800"
+        data-height="500"
+        data-transition="crossfade"
+      >
+        <img src="./images/gallery_1.png" loading="lazy" />
+        <img src="./images/gallery_2.png" loading="lazy" />
+        <img src="./images/gallery_3.png" loading="lazy" />
+        <img src="./images/gallery_4.png" loading="lazy" />
+        <img src="./images/gallery_5.png" loading="lazy" />
+        <img src="./images/gallery_6.png" loading="lazy" />
+        <img src="./images/gallery_7.png" loading="lazy" />
+        <img src="./images/gallery_8.png" loading="lazy" />
+        <img src="./images/gallery_9.png" loading="lazy" />
+        <img src="./images/gallery_10.png" loading="lazy" />
+        <img src="./images/gallery_11.png" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- Blogs -->
+    <section class="blogs reveal">
+      <h2 class="blogs-heading">Blogs</h2>
+      <div class="blog-row">
+        <div class="blog">
+          <img src="./images/gallery_6.png" alt="" />
+          <h3>By Abhijit Parad</h3>
+          <h6>Students of Budhavali school learn English in a fun way</h6>
+          <p>A few days ago Tejas dropped a message in our...</p>
+          <button class="btn-blog">Read More</button>
+        </div>
+        <div class="blog">
+          <img src="./images/blog_3.jpg" alt="" />
+          <h3>By Niraj Thakare</h3>
+          <h6>Lots of trees and a happy heart</h6>
+          <p>
+            It was a rainy day of 7th July. Even though it was a Sunday Junoon
+            Foundation's...
+          </p>
+          <button class="btn-blog">Read More</button>
+        </div>
+        <div class="blog">
+          <img src="./images/blog_4.png" alt="" />
+          <h3>By Ved Nikam</h3>
+          <h6>
+            जोपर्यत जुनून फाऊंडेशन काम करत राहणार तोपर्यंत मी जुनूनमध्ये काम करत
+            राहणार
+          </h6>
+          <p>मी जुनून फाऊंडेशनसोबत..</p>
+          <button class="btn-blog">Read More</button>
+        </div>
+        <div class="blog">
+          <img src="./images/blog_5.png" alt="" />
+          <h3>By Komal Bharambe</h3>
+          <h6>In and Out</h6>
+          <p>
+            After our art and craft workshop in December After our art and craft
+            workshop in December...
+          </p>
+          <button class="btn-blog">Read More</button>
+        </div>
+      </div>
+      <div class="blog-row">
+        <div class="blog">
+          <img src="./images/gallery_6.png" alt="" />
+          <h3>By Abhijit Parad</h3>
+          <h6>Students of Budhavali school learn English in a fun way</h6>
+          <p>A few days ago Tejas dropped a message in our...</p>
+          <button class="btn-blog">Read More</button>
+        </div>
+        <div class="blog">
+          <img src="./images/blog_3.jpg" alt="" />
+          <h3>By Niraj Thakare</h3>
+          <h6>Lots of trees and a happy heart</h6>
+          <p>
+            It was a rainy day of 7th July. Even though it was a Sunday Junoon
+            Foundation's...
+          </p>
+          <button class="btn-blog">Read More</button>
+        </div>
+        <div class="blog">
+          <img src="./images/blog_4.png" alt="" />
+          <h3>By Ved Nikam</h3>
+          <h6>
+            जोपर्यत जुनून फाऊंडेशन काम करत राहणार तोपर्यंत मी जुनूनमध्ये काम करत
+            राहणार
+          </h6>
+          <p>मी जुनून फाऊंडेशनसोबत..</p>
+          <button class="btn-blog">Read More</button>
+        </div>
+        <div class="blog">
+          <img src="./images/blog_5.png" alt="" />
+          <h3>By Komal Bharambe</h3>
+          <h6>In and Out</h6>
+          <p>
+            After our art and craft workshop in December After our art and craft
+            workshop in December...
+          </p>
+          <button class="btn-blog">Read More</button>
+        </div>
+      </div>
     </section>
     <script src="./js/script.js"></script>
   </body>

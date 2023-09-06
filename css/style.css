@@ -8,14 +8,6 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-snap-type: y proximity;
-}
-
-.container,
-.aboutUs,
-.our-projects,
-.gallery {
-  scroll-snap-align: center;
 }
 
 :root {
@@ -25,6 +17,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  background: #000;
 }
 
 .container {
@@ -149,11 +142,6 @@ a:hover {
 
 /* about us */
 
-.black-screen {
-  background: #000;
-  height: 40vh;
-}
-
 .aboutUs {
   background: #000;
   height: 100vh;
@@ -223,7 +211,7 @@ a:hover {
 .project-heading {
   display: flex;
   justify-content: center;
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 
 .our-projects h2 {
@@ -275,12 +263,14 @@ a:hover {
 .gallery {
   background: #000;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .gallery-heading {
   display: flex;
   justify-content: center;
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 
 .gallery h2 {
@@ -289,7 +279,109 @@ a:hover {
   font-weight: 500;
 }
 
-img:hover {
-  scale: 1.1;
+.fotorama {
+  display: flex;
+  justify-content: center;
+}
+
+/* reveal animation */
+
+.reveal {
+  position: relative;
+  transform: translateY(9rem);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Blogs */
+
+.blogs {
+  background: #000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.blogs-heading {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.blogs h2 {
+  color: var(--primary);
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.blog-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  background: var(--secondary);
+  margin: 4rem 1.5rem;
+  border-radius: 0.25rem;
+  width: 20rem;
+  height: 70%;
+}
+
+.blog img {
+  width: 100%;
+  height: 20rem;
+  border-radius: 0.25rem;
+}
+
+.blog h3 {
+  color: var(--primary);
+  font-weight: 500;
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+
+.blog h6 {
+  color: var(--primary);
+  font-weight: 500;
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+
+.blog p {
+  margin: 0.5rem;
+  color: var(--primary);
+}
+
+.blog-link a {
+  text-decoration: none;
+}
+
+.btn-blog {
+  margin-left: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 2.5rem;
+  background: var(--primary);
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.btn-blog:hover {
+  background: #000;
+  color: var(--primary);
   transition: all 0.5s ease-in-out;
 }
