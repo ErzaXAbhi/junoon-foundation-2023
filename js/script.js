@@ -1,3 +1,12 @@
+// navigation js code
+
+// fixed navbar
+
+window.addEventListener("scroll", function () {
+  let navbar = document.querySelector(".navbar");
+  navbar.classList.toggle("sticky", window.scrollY > 0);
+});
+
 const logo = document.querySelector(".logo");
 const menu = document.querySelector(".menu");
 const heroStart = document.querySelector(".hero-start");

@@ -8,6 +8,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
 }
 
 :root {
@@ -49,11 +50,25 @@ video {
 /* Navigation */
 
 .navbar {
-  position: absolute;
+  position: fixed;
   z-index: 999;
   display: flex;
   justify-content: space-between;
   margin: 1rem;
+}
+
+.navbar.sticky {
+  background: var(--primary);
+  margin: 0;
+  width: 100%;
+}
+.navbar.sticky h3,
+.navbar.sticky a {
+  color: var(--dark) !important;
+}
+
+.navbar.sticky a:hover {
+  color: var(--secondary) !important;
 }
 
 .navbar h3 {
