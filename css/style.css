@@ -42,7 +42,7 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 100%;
 }
@@ -59,14 +59,15 @@ video {
 
 .navbar.sticky {
   background: var(--primary);
-  margin: 0;
+  margin: 0rem;
   width: 100%;
-  height: 11%;
+  height: 12%;
   z-index: 9999;
 }
 .navbar.sticky h3,
 .navbar.sticky a {
   color: var(--dark) !important;
+  margin: 0.6rem auto;
 }
 
 .navbar.sticky a:hover {
@@ -86,7 +87,7 @@ video {
   display: flex;
   align-items: center;
   margin: 1rem;
-  margin-left: 40rem;
+  margin-left: 33rem;
   visibility: hidden;
 }
 
@@ -281,7 +282,7 @@ ul li {
 .gallery-heading {
   display: flex;
   justify-content: center;
-  padding-top: 2rem;
+  padding-top: 5rem;
 }
 
 .gallery h2 {
@@ -366,60 +367,60 @@ ul li {
   line-height: 1;
 }
 .s1 {
-  background-image: url(../images/gallery_1.png);
+  background-image: url(../images/photo-4.jpg);
   background-size: cover;
   background-position: center;
 }
 .s2 {
-  background-image: url(../images/gallery_2.png);
+  background-image: url(../images/photo-8.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .s3 {
-  background-image: url(../images/gallery_11.png);
+  background-image: url(../images/photo-1.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .s4 {
-  background-image: url(../images/gallery_4.png);
+  background-image: url(../images/photo-5.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .s5 {
-  background-image: url(../images/gallery_5.png);
+  background-image: url(../images/photo-6.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .s6 {
-  background-image: url(../images/gallery_6.png);
+  background-image: url(../images/photo-7.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .s7 {
-  background-image: url(../images/gallery_7.png);
+  background-image: url(../images/photo-10.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .s8 {
-  background-image: url(../images/gallery_8.png);
+  background-image: url(../images/photo-9.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .s9 {
-  background-image: url(../images/gallery_9.png);
+  background-image: url(../images/photo-11.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .s10 {
-  background-image: url(../images/gallery_10.png);
+  background-image: url(../images/photo-16.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -450,7 +451,7 @@ ul li {
 .blogs-heading {
   display: flex;
   justify-content: center;
-  padding-top: 2rem;
+  padding-top: 5rem;
 }
 
 .blogs h2 {
@@ -565,10 +566,82 @@ ul {
   transform-origin: left;
 }
 
+/* volunteers */
+
+.volunteer {
+  background: url(../images/volunteers-1.jpg) no-repeat fixed;
+  background-size: cover;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 4rem;
+}
+
+.volunteer-heading {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.volunteer h2 {
+  color: var(--primary);
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+}
+
+.volunteer p {
+  margin: 0.5rem;
+  color: var(--primary);
+  font-weight: 500;
+  width: 80%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.volunteer ul {
+  margin-top: 1rem;
+  color: var(--primary);
+  margin-left: 2rem;
+}
+
+.volunteer ul li {
+  margin: 0.5rem;
+  list-style: circle;
+  font-size: 1.2rem;
+}
+
+.volunteer-btn {
+  margin-left: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 2.5rem;
+  background: var(--secondary);
+  border: none;
+  border-radius: 5px;
+  color: var(--dark);
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.volunteer-btn:hover {
+  background: var(--dark);
+  color: var(--primary);
+  transition: all 0.5s ease-in-out;
+}
+
 /* footer */
 
 .footer {
-  height: 80dvh;
+  height: 90dvh;
   color: var(--primary);
   margin: 2rem;
 }
@@ -576,6 +649,7 @@ ul {
 .footer-heading {
   text-align: center;
   margin-bottom: 3rem;
+  padding-top: 5rem;
 }
 
 .footer-heading span {
@@ -583,7 +657,7 @@ ul {
 }
 
 .footer h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 500;
   line-height: 1;
 }
@@ -597,12 +671,20 @@ ul {
 
 .logo {
   display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.logo p {
+  width: 90%;
+  margin-top: 0.5rem;
 }
 
 .logo h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 500;
   line-height: 1;
+  width: 100%;
 }
 
 .menu-links {
@@ -622,7 +704,7 @@ ul {
   text-decoration: none;
   font-weight: bolder;
   padding-right: 2.5rem;
-  font-size: 1.625rem;
+  font-size: 1.1rem;
   letter-spacing: 0.5;
   color: var(--primary);
   font-weight: 500;
@@ -631,8 +713,8 @@ ul {
 .menu-links a::before {
   content: "";
   position: absolute;
-  bottom: 0.275rem;
-  height: 0.063rem;
+  bottom: 0.1rem;
+  height: 0.073rem;
   background: var(--secondary);
   transition: transform 0.5s ease-in-out;
   transform: scaleX(0);
@@ -663,11 +745,11 @@ ul {
   position: relative;
   text-decoration: none;
   color: var(--primary);
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 
 .copy-right {
-  margin-top: 1.5rem;
+  margin-top: 4rem;
   text-align: center;
   font-weight: 400;
 }
