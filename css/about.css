@@ -60,7 +60,7 @@ body {
 .navbar.sticky h3,
 .navbar.sticky a {
   color: var(--dark) !important;
-  margin: 0.6rem auto;
+  margin: 1rem 0.5rem;
 }
 
 .navbar.sticky a:hover {
@@ -80,7 +80,7 @@ body {
   display: flex;
   align-items: center;
   margin: 1rem;
-  margin-left: 33rem;
+  margin-left: 53rem;
   visibility: hidden;
 }
 
@@ -101,6 +101,10 @@ ul li {
   scale: 2;
 }
 
+.menu .link.active {
+  color: var(--secondary);
+}
+
 .hero-header {
   z-index: 999;
   display: flex;
@@ -108,6 +112,7 @@ ul li {
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
+  margin-left: 7rem;
 }
 
 .hero-header h1 {
@@ -117,6 +122,53 @@ ul li {
   visibility: hidden;
   line-height: 1;
   text-align: center;
+}
+
+.hero-header h1 span {
+  color: var(--secondary);
+}
+
+/* about */
+
+.about {
+  background: var(--dark);
+  height: 100dvh;
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+.about-text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2rem;
+  visibility: hidden;
+}
+
+.about-text h2 {
+  color: var(--primary);
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: -5rem;
+  line-height: 1;
+}
+
+.about-text p {
+  color: var(--primary);
+  font-weight: 500;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.about-video {
+  display: flex;
+  max-width: 100%;
+  max-height: 80%;
+  border-radius: 0.25rem;
+  margin-top: 5rem;
+  visibility: hidden;
 }
 
 /* Vision */
@@ -135,6 +187,7 @@ ul li {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  visibility: hidden;
 }
 
 .vision-text h2 {
@@ -153,6 +206,7 @@ ul li {
 .vision-img {
   margin-left: 2rem;
   display: flex;
+  visibility: hidden;
 }
 
 .vision-img img {
@@ -172,11 +226,12 @@ ul li {
 }
 
 .mission-text {
-  width: 60%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: 5rem;
+  visibility: hidden;
 }
 
 .mission-text h2 {
@@ -196,10 +251,12 @@ ul li {
 .mission-text p strong {
   font-weight: 700;
   font-size: 1.5rem;
+  color: var(--secondary);
 }
 
 .mission-img {
   display: flex;
+  visibility: hidden;
 }
 
 .mission-img img {
@@ -208,10 +265,81 @@ ul li {
   border-radius: 0.25rem;
 }
 
+/* Annual report */
+
+.annual-report {
+  height: 50dvh;
+  display: flex;
+  justify-content: center;
+  background: url(../images/new-6.jpeg) no-repeat;
+  background-size: cover;
+  filter: grayscale(50%);
+  margin: 6rem;
+  border-radius: 60px;
+  background-position: center;
+  visibility: hidden;
+}
+
+.annual-report-heading h2 {
+  color: var(--primary);
+  font-size: 4rem;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  z-index: 999;
+}
+
+.report-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  z-index: 999;
+}
+
+.report-list ul {
+  list-style: none;
+  text-align: center;
+}
+
+.report-list li {
+  background: var(--secondary);
+  background-size: contain;
+  border-radius: 5px;
+}
+
+.report-list a {
+  position: relative;
+  text-decoration: none;
+  font-weight: bolder;
+  padding-right: 2.5rem;
+  font-size: 1.625rem;
+  letter-spacing: 0.5;
+  color: var(--primary);
+  font-weight: 500;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.report-list a::before {
+  content: "";
+  position: absolute;
+  bottom: 0.175rem;
+  height: 0.203rem;
+  background: var(--dark);
+  transition: transform 0.5s ease-in-out;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+.report-list a:hover::before {
+  width: 80%;
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
 /* footer */
 
 .footer {
-  height: 90dvh;
+  height: 100dvh;
   color: var(--primary);
   margin: 2rem;
 }
@@ -219,7 +347,7 @@ ul li {
 .footer-heading {
   text-align: center;
   margin-bottom: 3rem;
-  padding-top: 5rem;
+  padding-top: 7rem;
 }
 
 .footer-heading span {

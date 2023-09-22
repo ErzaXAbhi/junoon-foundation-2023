@@ -108,6 +108,10 @@ ul li {
   scale: 2;
 }
 
+.menu .link.active {
+  color: var(--secondary);
+}
+
 .hero-header {
   z-index: 999;
   display: flex;
@@ -157,6 +161,16 @@ ul li {
 .btn:hover {
   background: var(--dark);
   transition: all 0.5s ease-in-out;
+}
+
+.btn a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.btn-about a {
+  text-decoration: none;
+  color: var(--dark);
 }
 
 /* about us */
