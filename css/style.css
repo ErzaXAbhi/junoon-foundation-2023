@@ -121,6 +121,10 @@ ul li {
   margin-top: 5rem;
 }
 
+.hero-heading span {
+  color: var(--secondary);
+}
+
 .hero-header p {
   color: var(--primary);
   font-size: 1.1rem;
