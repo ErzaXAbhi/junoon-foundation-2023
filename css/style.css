@@ -94,6 +94,8 @@ video {
 ul li {
   list-style: none;
   margin-left: 1rem;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .menu a {

@@ -5,23 +5,27 @@
 @media screen and (width <= 768px) {
   .navbar h3 {
     font-size: 1rem;
-    margin-left: 8rem;
+    margin-left: 0rem;
   }
 
   .menu {
     margin: 3rem;
-    margin-left: -15rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -0.5rem;
   }
 
   .menu li {
     width: 50%; /* Display two items per row */
     padding: 10px 0;
+    display: inline-block;
   }
 
   /* hero header */
 
   .hero-header {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
   .hero-header p {
