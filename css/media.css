@@ -62,13 +62,14 @@
   }
 
   .about-info p {
-    width: 100%;
+    width: 90%;
     display: -webkit-box;
     -webkit-line-clamp: 11;
     -webkit-box-orient: vertical;
     overflow: hidden;
     margin-top: 0rem;
     margin-left: 0rem;
+    text-align: center;
   }
 
   .about-para .btn-about {
