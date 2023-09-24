@@ -58,13 +58,21 @@
   }
 
   .about-info p {
-    width: 80%;
+    width: 100%;
     display: -webkit-box;
-    -webkit-line-clamp: 14;
+    -webkit-line-clamp: 10;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    margin-top: 1rem;
-    margin-left: 2rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+  }
+
+  .about-para .btn-about {
+    display: block;
+  }
+
+  .about-para span {
+    display: none;
   }
 
   .about-img {
