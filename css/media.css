@@ -43,4 +43,33 @@
     text-align: center;
     margin-top: 1rem;
   }
+
+  /* About us */
+
+  .aboutUs h2 {
+    font-size: 2rem;
+    margin-right: 7rem;
+  }
+
+  .about-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .about-info p {
+    width: 80%;
+    display: -webkit-box;
+    -webkit-line-clamp: 14;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+
+  .about-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
 }
