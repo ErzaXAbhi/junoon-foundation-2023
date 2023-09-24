@@ -19,7 +19,7 @@
   .menu li {
     width: 50%; /* Display two items per row */
     padding: 10px 0;
-    display: inline-block;
+    display: none;
   }
 
   /* hero header */

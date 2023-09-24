@@ -114,6 +114,22 @@ ul li {
   color: var(--secondary);
 }
 
+/* toggle bar */
+
+.hamberger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 1.875rem;
+  height: 0.125rem;
+  margin: 0.313rem auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  background-color: #000;
+}
+
 .hero-header {
   z-index: 999;
   display: flex;

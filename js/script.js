@@ -1,5 +1,3 @@
-// navigation js code
-
 // fixed navbar
 
 window.addEventListener("scroll", function () {
