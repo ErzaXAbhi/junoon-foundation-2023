@@ -47,8 +47,8 @@
   /* About us */
 
   .aboutUs h2 {
-    font-size: 2rem;
-    margin-right: 7rem;
+    font-size: 2.5rem;
+    margin-right: 4rem;
   }
 
   .about-info {
@@ -71,5 +71,30 @@
     display: flex;
     justify-content: center;
     margin-top: 2rem;
+  }
+
+  /* reveal animation */
+
+  .reveal {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+
+  .reveal.active {
+    opacity: 1;
+  }
+
+  /* sticky navbar */
+
+  .navbar.sticky {
+    display: none;
+  }
+  .navbar.sticky h3,
+  .navbar.sticky a {
+    display: none;
+  }
+
+  .navbar.sticky a:hover {
+    display: none;
   }
 }
