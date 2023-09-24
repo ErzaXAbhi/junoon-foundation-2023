@@ -47,7 +47,7 @@
   /* About us */
 
   .about-heading {
-    padding-top: 10rem;
+    padding-top: 8rem;
   }
 
   .aboutUs h2 {
@@ -68,7 +68,7 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     margin-top: 0rem;
-    margin-left: 0rem;
+    margin-left: 1rem;
     text-align: center;
   }
 
