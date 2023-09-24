@@ -64,7 +64,7 @@
   .about-info p {
     width: 90%;
     display: -webkit-box;
-    -webkit-line-clamp: 11;
+    -webkit-line-clamp: 12;
     -webkit-box-orient: vertical;
     overflow: hidden;
     margin-top: 0rem;
