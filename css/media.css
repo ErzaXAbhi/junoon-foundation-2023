@@ -213,4 +213,8 @@
   .volunteer h2 {
     font-size: 2rem;
   }
+
+  .volunteer p {
+    text-align: left;
+  }
 }
