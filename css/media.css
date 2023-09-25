@@ -69,7 +69,7 @@
     overflow: hidden;
     margin-top: 0rem;
     margin-left: 1rem;
-    text-align: center;
+    text-align: left;
   }
 
   .about-para .btn-about {
@@ -109,5 +109,19 @@
 
   .navbar.sticky a:hover {
     display: none;
+  }
+
+  /* projects */
+
+  .our-projects {
+    display: none;
+  }
+
+  .project-heading {
+    padding-top: 2rem;
+  }
+
+  .our-projects h2 {
+    font-size: 2.5rem;
   }
 }
