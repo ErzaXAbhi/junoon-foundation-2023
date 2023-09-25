@@ -128,16 +128,17 @@
   }
 
   .our-projects-mobile .project-heading {
-    padding-top: 2rem;
+    padding-top: 4rem;
     font-size: 2.5rem;
     color: var(--primary);
     font-weight: 500;
+    margin-bottom: 3rem;
   }
 
   .project {
     max-width: 100%;
     margin: 1rem;
-    margin-right: 1.6rem;
+    margin-right: 1.5rem;
   }
 
   .project p {
