@@ -1,5 +1,9 @@
 /* Media querries for Index page */
-
+:root {
+  --primary: #fff;
+  --secondary: #72a0c1;
+  --dark: #111111;
+}
 /* For mobile */
 
 @media screen and (width <= 768px) {
@@ -117,11 +121,26 @@
     display: none;
   }
 
-  .project-heading {
-    padding-top: 2rem;
+  .our-projects-mobile {
+    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
-  .our-projects h2 {
+  .our-projects-mobile .project-heading {
+    padding-top: 2rem;
     font-size: 2.5rem;
+    color: var(--primary);
+    font-weight: 500;
+  }
+
+  .project {
+    max-width: 100%;
+    margin: 1rem;
+    margin-right: 1.8rem;
+  }
+
+  .project p {
+    text-align: center;
   }
 }

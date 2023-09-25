@@ -258,6 +258,10 @@ ul li {
 
 /* projects */
 
+.our-projects-mobile {
+  display: none;
+}
+
 .our-projects {
   background: var(--dark);
   height: 100dvh;
