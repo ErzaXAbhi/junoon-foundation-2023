@@ -156,4 +156,40 @@
     height: 50%;
     width: 100%;
   }
+
+  /* blogs */
+
+  .blogs {
+    height: 250dvh;
+  }
+
+  .blogs-heading {
+    margin-bottom: 2rem;
+  }
+
+  .blog-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog {
+    display: flex;
+    flex-direction: column;
+    background: var(--secondary);
+    margin: 2rem 1.5rem;
+    border-radius: 0.3rem;
+    width: 20rem;
+    height: 100%;
+  }
+
+  .blogs ul {
+    margin-top: 2rem;
+  }
+
+  .blog p {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
 }
