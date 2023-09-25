@@ -200,4 +200,17 @@
   .blog-btn {
     margin-bottom: 0.5rem;
   }
+
+  /* volunteer */
+
+  .volunteer {
+    background: url(../images/gallery_4.png) center no-repeat fixed;
+    background-size: cover;
+    height: 150dvh;
+    margin-top: 5rem;
+  }
+
+  .volunteer h2 {
+    font-size: 2rem;
+  }
 }
