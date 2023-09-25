@@ -144,4 +144,15 @@
   .project p {
     text-align: center;
   }
+
+  /* Gallery */
+
+  .gallery-heading {
+    margin-bottom: 2rem;
+  }
+
+  .slider-container {
+    height: 50%;
+    width: 100%;
+  }
 }
