@@ -92,14 +92,6 @@
 
   /* reveal animation */
 
-  .reveal {
-    opacity: 1;
-  }
-
-  .reveal.active {
-    opacity: 1;
-  }
-
   /* sticky navbar */
 
   .navbar.sticky {

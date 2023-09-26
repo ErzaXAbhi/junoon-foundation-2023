@@ -87,7 +87,7 @@ video {
   display: flex;
   align-items: center;
   margin: 1rem;
-  margin-left: 33rem;
+  margin-left: 30rem;
   visibility: hidden;
 }
 
@@ -663,6 +663,10 @@ ul {
   text-align: center;
 }
 
+h2 span {
+  color: var(--secondary);
+}
+
 .volunteer p {
   margin: 0.5rem;
   color: var(--primary);
@@ -781,10 +785,10 @@ ul {
   width: 100%;
 }
 
-.menu-links {
+.menu-links ul {
   display: flex;
   column-gap: 1rem;
-  align-items: center;
+  flex-direction: column;
 }
 
 .menu-links ul li {
@@ -821,9 +825,10 @@ ul {
   transform-origin: left;
 }
 
-.icon-links {
+.icon-links ul {
   display: flex;
-  align-items: center;
+
+  flex-direction: column;
 }
 
 .icon-links ul li {
