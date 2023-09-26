@@ -93,13 +93,11 @@
   /* reveal animation */
 
   .reveal {
-    transform: translateY(0rem);
     opacity: 1;
   }
 
   .reveal.active {
     opacity: 1;
-    transform: translateY(0rem);
   }
 
   /* sticky navbar */
