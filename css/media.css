@@ -204,10 +204,11 @@
   /* volunteer */
 
   .volunteer {
-    background: url(../images/gallery_4.png) center no-repeat fixed;
+    background: url(../images/volunteers-1.jpg) center no-repeat;
+    background-position: 50%;
     background-size: cover;
     height: 150dvh;
-    margin-top: 5rem;
+    margin-top: 0rem;
   }
 
   .volunteer h2 {
