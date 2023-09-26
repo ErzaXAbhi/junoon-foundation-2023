@@ -160,7 +160,7 @@
   /* blogs */
 
   .blogs {
-    height: 310dvh;
+    height: 200dvh;
   }
 
   .blogs-heading {
@@ -199,6 +199,14 @@
 
   .blog-btn {
     margin-bottom: 0.5rem;
+  }
+
+  .blog3 {
+    display: none;
+  }
+
+  .blog4 {
+    display: none;
   }
 
   /* volunteer */
