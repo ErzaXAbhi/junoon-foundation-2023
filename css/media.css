@@ -207,9 +207,9 @@
 
   .volunteer {
     background: url(../images/volunteers-1.jpg) center no-repeat;
-    background-position: 50%;
+    background-position: 55%;
     background-size: cover;
-    height: 160dvh;
+    height: 180dvh;
     margin-top: 0rem;
   }
 
@@ -219,5 +219,47 @@
 
   .volunteer p {
     text-align: left;
+  }
+
+  /* footer */
+
+  .footer h1 {
+    font-size: 3rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .scanner-img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .scanner-img img {
+    margin: 1rem;
+    margin-left: 4rem;
+  }
+
+  .menu-links ul {
+    display: flex;
+    column-gap: 3rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .icon-links ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
