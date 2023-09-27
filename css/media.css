@@ -217,7 +217,7 @@
     background-position: 55%;
     background-size: cover;
     height: 180dvh;
-    margin-top: -5rem;
+    margin-top: -10rem;
   }
 
   .volunteer h2 {
@@ -251,6 +251,12 @@
     margin-left: -2rem;
   }
 
+  .logo p {
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-left: -1rem;
+  }
+
   .scanner-img {
     display: flex;
     flex-direction: column;
@@ -262,7 +268,9 @@
   }
 
   .scanner-img p {
-    margin-top: 1rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-left: -1rem;
   }
 
   .scanner-img img {
