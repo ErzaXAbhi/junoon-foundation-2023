@@ -279,7 +279,7 @@ ul li {
   height: 50dvh;
   display: flex;
   justify-content: center;
-  background: url(../images/new-6.jpeg) no-repeat;
+  background: url(../images/new-6.jpeg) center no-repeat;
   background-size: cover;
   margin: 6rem;
   border-radius: 60px;
@@ -310,7 +310,7 @@ ul li {
 .report-list li {
   background: var(--secondary);
   background-size: contain;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .report-list a {
@@ -338,7 +338,7 @@ ul li {
 }
 
 .report-list a:hover::before {
-  width: 80%;
+  width: 70%;
   transform: scaleX(1);
   transform-origin: left;
 }
