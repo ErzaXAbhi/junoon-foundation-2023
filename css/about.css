@@ -14,7 +14,7 @@ html {
 :root {
   --primary: #fff;
   --secondary: #2a3891;
-  --dark: #f1582b;
+  --dark: #000000;
 }
 
 body {
@@ -370,9 +370,11 @@ ul li {
 
 .footer-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: baseline;
   margin-top: 2rem;
+  align-content: center;
+  flex-wrap: nowrap;
 }
 
 .logo {

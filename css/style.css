@@ -14,7 +14,7 @@ html {
 :root {
   --primary: #fff;
   --secondary: #2a3891;
-  --dark: #f1582b;
+  --dark: #000000;
 }
 
 body {
@@ -68,8 +68,8 @@ video {
   margin: -2rem -2.5rem;
 }
 
-.navbar.sticky .menu ul {
-  margin-left: 1rem;
+.navbar .sticky .menu {
+  margin-left: -1rem;
 }
 
 .navbar.sticky li {
@@ -97,7 +97,7 @@ video {
   display: flex;
   align-items: center;
   margin-left: 5rem;
-  margin-top: 1rem;
+  margin-top: 0rem;
   visibility: hidden;
 }
 
@@ -291,27 +291,27 @@ ul li {
   justify-content: center;
   align-items: center;
   background-color: var(--secondary);
-  max-width: 32%;
+  max-width: 30%;
   border-radius: 0.25rem;
 }
 
 .project h4 {
   color: var(--primary);
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
 .project p {
   color: var(--primary);
-  width: 90%;
+  width: 98%;
   margin-top: 1rem;
   text-align: center;
 }
 
 .project img {
-  max-width: 16rem;
-  max-height: 12rem;
+  max-width: 100%;
+  max-height: 10rem;
   border-radius: 0.25rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -322,7 +322,7 @@ ul li {
 .gallery-heading {
   display: flex;
   justify-content: center;
-  padding-top: 10rem;
+  padding-top: 6rem;
 }
 
 .gallery h2 {
@@ -601,7 +601,7 @@ ul li {
   text-decoration: none;
 }
 
-ul {
+.blog ul {
   list-style: none !important;
   line-height: 1;
   margin-left: 1rem;
@@ -735,9 +735,11 @@ ul {
 
 .footer-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: baseline;
   margin-top: 2rem;
+  align-content: center;
+  flex-wrap: nowrap;
 }
 
 .logo {
