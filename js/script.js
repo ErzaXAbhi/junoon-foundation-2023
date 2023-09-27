@@ -5,7 +5,7 @@ window.addEventListener("scroll", function () {
   navbar.classList.toggle("sticky", window.scrollY > 0);
 });
 
-const logo = document.querySelector(".logo");
+const logo = document.querySelector(".header-logo");
 const menu = document.querySelector(".menu");
 const heroStart = document.querySelector(".hero-start");
 const heroHeading = document.querySelector(".hero-heading");
