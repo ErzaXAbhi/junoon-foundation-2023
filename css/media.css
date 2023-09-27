@@ -49,6 +49,10 @@
 
   /* About us */
 
+  .aboutUs {
+    height: 170dvh;
+  }
+
   .about-heading {
     padding-top: 5rem;
   }
@@ -67,7 +71,7 @@
   .about-info p {
     width: 90%;
     display: -webkit-box;
-    -webkit-line-clamp: 12;
+    -webkit-line-clamp: 26;
     -webkit-box-orient: vertical;
     overflow: hidden;
     margin-top: 0rem;
@@ -120,7 +124,7 @@
   .our-projects-mobile .project-heading {
     padding-top: 4rem;
     font-size: 2.5rem;
-    color: var(--primary);
+    color: var(--dark);
     font-weight: 500;
     margin-bottom: 3rem;
   }
