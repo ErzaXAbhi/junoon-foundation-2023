@@ -793,7 +793,7 @@ ul {
 .menu-links ul li {
   list-style: none;
   font-weight: 500;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .menu-links a {
@@ -832,7 +832,7 @@ ul {
 
 .icon-links ul li {
   list-style: none;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .icon-links i {
@@ -853,7 +853,7 @@ ul {
 }
 
 .copy-right span {
-  color: var(--secondary);
+  color: var(--dark);
 }
 
 .footer hr {
