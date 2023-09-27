@@ -143,7 +143,11 @@
 
   .gallery-heading {
     margin-bottom: 2rem;
-    padding-top: 10rem;
+    padding-top: 3rem;
+  }
+
+  .gallery-container {
+    height: 600px;
   }
 
   .slider-container {
@@ -155,6 +159,7 @@
 
   .blogs {
     height: 200dvh;
+    margin-top: -8rem;
   }
 
   .blogs-heading {
@@ -210,7 +215,7 @@
     background-position: 55%;
     background-size: cover;
     height: 180dvh;
-    margin-top: 0rem;
+    margin-top: -5rem;
   }
 
   .volunteer h2 {
@@ -229,6 +234,7 @@
 
   .footer-container {
     flex-direction: column;
+    margin-top: -3rem;
   }
 
   .logo {
@@ -238,10 +244,23 @@
     width: 100%;
   }
 
+  .logo img {
+    width: 100%;
+    margin-left: -2rem;
+  }
+
   .scanner-img {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+
+  .scanner-img h3 {
+    margin-left: 1rem;
+  }
+
+  .scanner-img p {
+    margin-top: 1rem;
   }
 
   .scanner-img img {
