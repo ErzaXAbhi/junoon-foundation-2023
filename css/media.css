@@ -7,8 +7,9 @@
 /* For mobile */
 
 @media screen and (width <= 768px) {
-  .logo {
-    margin: 3rem;
+  .header-logo {
+    margin: 2rem;
+    width: 60%;
   }
 
   .menu {
