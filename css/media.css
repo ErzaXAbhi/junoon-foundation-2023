@@ -72,7 +72,7 @@
   .about-info p {
     width: 90%;
     display: -webkit-box;
-    -webkit-line-clamp: 26;
+    -webkit-line-clamp: 29;
     -webkit-box-orient: vertical;
     overflow: hidden;
     margin-top: 0rem;
