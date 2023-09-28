@@ -243,96 +243,99 @@
       const missionText = document.querySelector(".mission-text");
       const annual = document.querySelector(".annual-report");
 
-      // Register the ScrollTrigger plugin
-      gsap.registerPlugin(ScrollTrigger);
+      // Check if the screen width is above a certain threshold (e.g., 768 pixels for tablets)
+      if (window.innerWidth > 768) {
+        // Register the ScrollTrigger plugin
+        gsap.registerPlugin(ScrollTrigger);
 
-      // Annual report
+        // Annual report
+        gsap.from(".annual-report", {
+          y: -50,
+          autoAlpha: 0,
+          ease: "linear",
+          duration: 0.5,
+          scrollTrigger: {
+            trigger: ".annual-report",
+            start: "top 20%",
+            end: "bottom",
+          },
+        });
 
-      gsap.from(annual, {
-        y: -50,
-        autoAlpha: 0,
-        ease: "linear",
-        duration: 0.5,
-        scrollTrigger: {
-          trigger: ".annual-report",
-          start: "top 20%",
-          end: "bottom",
-        },
-      });
+        // about
+        gsap.from(".about-text", {
+          x: 200,
+          autoAlpha: 0,
+          ease: "linear",
+          duration: 0.5,
+          scrollTrigger: {
+            trigger: ".about-text",
+            start: "top 20%",
+            end: "bottom",
+          },
+        });
 
-      // about
-      gsap.from(videoText, {
-        x: 200,
-        autoAlpha: 0,
-        ease: "linear",
-        duration: 0.5,
-        scrollTrigger: {
-          trigger: ".about-text",
-          start: "top 20%",
-          end: "bottom",
-        },
-      });
+        gsap.from(".about-video", {
+          x: -200,
+          autoAlpha: 0,
+          ease: "linear",
+          duration: 0.5,
+          scrollTrigger: {
+            trigger: ".about-text",
+            start: "top 20%",
+            end: "bottom",
+          },
+        });
 
-      gsap.from(video, {
-        x: -200,
-        autoAlpha: 0,
-        ease: "linear",
-        duration: 0.5,
-        scrollTrigger: {
-          trigger: ".about-text",
-          start: "top 20%",
-          end: "bottom",
-        },
-      });
+        // mission
+        gsap.from(".mission-text", {
+          x: 200,
+          autoAlpha: 0,
+          ease: "linear",
+          duration: 0.5,
+          scrollTrigger: {
+            trigger: ".mission-text",
+            start: "top 20%",
+            end: "bottom",
+          },
+        });
 
-      //mission
-      gsap.from(missionText, {
-        x: 200,
-        autoAlpha: 0,
-        ease: "linear",
-        duration: 0.5,
-        scrollTrigger: {
-          trigger: ".mission-text",
-          start: "top 20%",
-          end: "bottom",
-        },
-      });
+        gsap.from(".mission-img", {
+          x: -200,
+          autoAlpha: 0,
+          ease: "linear",
+          duration: 0.5,
+          scrollTrigger: {
+            trigger: ".mission-img",
+            start: "top 20%",
+            end: "bottom",
+          },
+        });
 
-      gsap.from(missionImg, {
-        x: -200,
-        autoAlpha: 0,
-        ease: "linear",
-        duration: 0.5,
-        scrollTrigger: {
-          trigger: ".mission-img",
-          start: "top 20%",
-          end: "bottom",
-        },
-      });
-      // vision
-      gsap.from(visionText, {
-        x: -200,
-        autoAlpha: 0,
-        ease: "linear",
-        duration: 0.5,
-        scrollTrigger: {
-          trigger: ".vision-text",
-          start: "top 30%",
-          end: "bottom",
-        },
-      });
+        // vision
+        gsap.from(".vision-text", {
+          x: -200,
+          autoAlpha: 0,
+          ease: "linear",
+          duration: 0.5,
+          scrollTrigger: {
+            trigger: ".vision-text",
+            start: "top 30%",
+            end: "bottom",
+          },
+        });
 
-      gsap.from(visionImg, {
-        x: 200,
-        autoAlpha: 0,
-        ease: "linear",
-        duration: 0.5,
-        scrollTrigger: {
-          trigger: ".vision-img",
-          start: "top 30%",
-          end: "bottom",
-        },
-      });
+        gsap.from(".vision-img", {
+          x: 200,
+          autoAlpha: 0,
+          ease: "linear",
+          duration: 0.5,
+          scrollTrigger: {
+            trigger: ".vision-img",
+            start: "top 30%",
+            end: "bottom",
+          },
+        });
+      }
     </script>
   </body>
 </html>
