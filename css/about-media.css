@@ -94,8 +94,26 @@
   /* Vision */
 
   .vision {
-    margin-top: 55rem;
+    margin-top: 30rem;
     flex-direction: column;
+    margin-left: 3rem;
+  }
+
+  .vision-text {
+    width: 100%;
+  }
+
+  .vision-img {
+    margin-top: -5rem;
+    margin-left: 2rem;
+  }
+
+  /* Mission */
+
+  .mission {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rem;
   }
 
   /* footer */
