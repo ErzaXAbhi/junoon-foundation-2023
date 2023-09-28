@@ -266,7 +266,7 @@ ul li {
 .mission-text p strong {
   font-weight: 700;
   font-size: 1.5rem;
-  color: var(--secondary);
+  color: var(--dark);
 }
 
 .mission-img {

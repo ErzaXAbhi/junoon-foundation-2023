@@ -118,7 +118,23 @@
   .mission {
     display: flex;
     flex-direction: column;
-    margin-top: 20rem;
+    margin-top: 5rem;
+  }
+
+  .mission-text {
+    width: 100%;
+    margin-top: 3rem;
+    margin-left: 0rem;
+  }
+
+  .mission-img {
+    margin-top: 2rem;
+    margin-left: -1rem;
+  }
+
+  .mission-img img {
+    height: 100%;
+    width: 100%;
   }
 
   /* footer */
