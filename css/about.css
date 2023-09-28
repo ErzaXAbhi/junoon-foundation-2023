@@ -27,7 +27,7 @@ body {
   position: relative;
   overflow: hidden;
   display: flex;
-  background: url(../images/photo-22.jpg) center no-repeat;
+  background: url(../images/photo-24.jpg) center no-repeat;
   background-size: cover;
 }
 
@@ -461,7 +461,7 @@ ul li {
 }
 
 .menu-links a:hover::before {
-  width: 70%;
+  width: 55%;
   transform: scaleX(1);
   transform-origin: left;
 }
