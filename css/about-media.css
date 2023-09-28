@@ -140,8 +140,8 @@
   /* Annual report */
 
   .annual-report {
-    height: 50dvh;
-    margin: 2rem;
+    height: 60dvh;
+    margin: 1rem;
     margin-top: 5rem;
     display: flex;
     align-items: center;
@@ -155,7 +155,7 @@
   }
 
   ul li {
-    margin-left: 0rem;
+    margin-left: -0.5rem;
   }
 
   /* footer */
