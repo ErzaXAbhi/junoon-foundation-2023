@@ -154,13 +154,13 @@
     margin-left: 3rem;
   }
 
-  ul {
+  .annual-report-heading ul {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
   }
 
-  ul li {
+  .annual-report-heading ul li {
     margin-left: 5.5rem;
     text-align: center;
     width: 50%;
