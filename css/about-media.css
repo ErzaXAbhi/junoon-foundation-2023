@@ -64,6 +64,10 @@
     margin-top: 10rem;
   }
 
+  .about-video {
+    margin-top: 10rem;
+  }
+
   .about-text {
     width: 100%;
     margin-top: 8rem;
@@ -75,7 +79,7 @@
   }
 
   iframe {
-    width: 322px;
+    width: 310px;
   }
 
   /* footer */
