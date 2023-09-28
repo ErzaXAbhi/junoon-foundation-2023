@@ -229,7 +229,6 @@
     display: flex;
     column-gap: 0rem;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
   }
 
