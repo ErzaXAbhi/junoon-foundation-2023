@@ -77,6 +77,11 @@
     align-items: stretch;
   }
 
+  .about-text h2 {
+    margin-top: -7rem;
+    margin-left: -1rem;
+  }
+
   .about-text p {
     margin-top: 0.5rem;
     margin-left: -1rem;
@@ -89,7 +94,7 @@
   /* Vision */
 
   .vision {
-    margin-top: 50rem;
+    margin-top: 60rem;
     flex-direction: column;
   }
 
