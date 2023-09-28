@@ -12,7 +12,6 @@ const heroHeading = document.querySelector(".hero-heading");
 const heroPara = document.querySelector(".hero-para");
 const homeBtn = document.querySelector(".btn");
 const popUp = document.querySelector(".popup");
-const popUpMobile = document.querySelector(".popup-mobile");
 
 window.addEventListener("load", revealAnime);
 
@@ -34,8 +33,7 @@ function revealAnime() {
     .from(heroHeading, { autoAlpha: 0, y: -50, delay: 0 })
     .from(heroPara, { autoAlpha: 0, y: -50, delay: 0 })
     .from(homeBtn, { autoAlpha: 0, y: -50, delay: 0 })
-    .from(popUp, { autoAlpha: 0, y: -50, delay: 0 })
-    .from(popUpMobile, { autoAlpha: 0, y: -50, delay: 0 });
+    .from(popUp, { autoAlpha: 0, y: -50, delay: 0 });
 }
 
 // reveal on scroll animation js code
