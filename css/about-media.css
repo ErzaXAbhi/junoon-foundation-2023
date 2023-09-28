@@ -61,7 +61,7 @@
 
   .about {
     flex-direction: column;
-    margin-top: 10rem;
+    margin-top: 15rem;
   }
 
   .about-video {
@@ -79,7 +79,7 @@
   }
 
   iframe {
-    width: 310px;
+    width: 300px;
   }
 
   /* footer */
