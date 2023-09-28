@@ -287,7 +287,7 @@ ul li {
   height: 50dvh;
   display: flex;
   justify-content: center;
-  background: url(../images/new-6.jpeg) center no-repeat;
+  background: url(../images/photo-14.jpg) center no-repeat;
   background-size: cover;
   margin: 6rem;
   border-radius: 60px;
@@ -296,7 +296,7 @@ ul li {
 }
 
 .annual-report-heading h2 {
-  color: var(--dark);
+  color: var(--secondary);
   font-size: 4rem;
   font-weight: 500;
   margin-top: 1.5rem;

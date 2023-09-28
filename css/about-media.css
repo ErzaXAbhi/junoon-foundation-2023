@@ -137,6 +137,27 @@
     width: 100%;
   }
 
+  /* Annual report */
+
+  .annual-report {
+    height: 50dvh;
+    margin: 2rem;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .annual-report-heading h2 {
+    margin-top: -5.5rem;
+    line-height: 1;
+    margin-left: 3rem;
+  }
+
+  ul li {
+    margin-left: 0rem;
+  }
+
   /* footer */
 
   .footer h1 {
