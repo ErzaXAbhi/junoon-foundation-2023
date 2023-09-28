@@ -1,0 +1,284 @@
+/* Media querries for about page */
+:root {
+  --primary: #fff;
+  --secondary: #2a3891;
+  --dark: #000000;
+}
+/* For mobile */
+
+@media screen and (width <= 768px) {
+  .navbar img {
+    width: 50%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  .menu li {
+    width: 50%; /* Display two items per row */
+    padding: 10px 0;
+    display: none;
+  }
+
+  /* hero header */
+
+  .hero-header h1 {
+    font-size: 3.5rem;
+    line-height: 1;
+    text-align: center;
+    margin-top: -4rem;
+    margin-left: -5rem;
+  }
+
+  /* About us */
+
+  .aboutUs {
+    height: 170dvh;
+  }
+
+  .about-heading {
+    padding-top: 5rem;
+  }
+
+  .aboutUs h2 {
+    font-size: 2.5rem;
+    margin-right: 0rem;
+  }
+
+  .about-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .about-info p {
+    width: 90%;
+    display: -webkit-box;
+    -webkit-line-clamp: 29;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 0rem;
+    margin-left: 1rem;
+    text-align: left;
+  }
+
+  .about-para .btn-about {
+    display: block;
+  }
+
+  .about-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .about-img img {
+    max-width: 90%;
+  }
+
+  /* reveal animation */
+
+  /* sticky navbar */
+
+  .navbar.sticky {
+    display: none;
+  }
+  .navbar.sticky h3,
+  .navbar.sticky a {
+    display: none;
+  }
+
+  .navbar.sticky a:hover {
+    display: none;
+  }
+
+  /* projects */
+
+  .our-projects {
+    display: none;
+  }
+
+  .our-projects-mobile {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10rem;
+  }
+
+  .our-projects-mobile .project-heading {
+    padding-top: 4rem;
+    font-size: 2.5rem;
+    color: var(--dark);
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }
+
+  .project {
+    max-width: 100%;
+    margin: 1rem;
+    margin-right: 1.5rem;
+  }
+
+  .project p {
+    text-align: center;
+  }
+
+  /* Gallery */
+
+  .gallery-heading {
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+  }
+
+  .gallery-container {
+    height: 600px;
+  }
+
+  .slider-container {
+    height: 70%;
+    width: 100%;
+  }
+
+  /* blogs */
+
+  .blogs {
+    height: 200dvh;
+    margin-top: -8rem;
+  }
+
+  .blogs-heading {
+    margin-bottom: 2rem;
+    padding-top: 0rem;
+  }
+
+  .blog-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog {
+    display: flex;
+    flex-direction: column;
+    background: var(--secondary);
+    margin: 2rem 3rem;
+    border-radius: 0.3rem;
+    width: 17rem;
+    height: 100%;
+  }
+
+  .blogs ul {
+    margin-top: 2rem;
+  }
+
+  .blog p {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .blog img {
+    height: 15rem;
+  }
+
+  .blog-btn {
+    margin-bottom: 0.5rem;
+  }
+
+  .blog3 {
+    display: none;
+  }
+
+  .blog4 {
+    display: none;
+  }
+
+  /* volunteer */
+
+  .volunteer {
+    background: url(../images/volunteers-1.jpg) center no-repeat;
+    background-position: 55%;
+    background-size: cover;
+    height: 160dvh;
+    margin-top: -20rem;
+  }
+
+  .volunteer h2 {
+    font-size: 2rem;
+  }
+
+  .volunteer p {
+    text-align: left;
+  }
+
+  /* footer */
+
+  .footer h1 {
+    font-size: 3rem;
+  }
+
+  .footer-heading {
+    margin-bottom: 1rem;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: -3rem;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: baseline;
+    justify-content: space-evenly;
+  }
+
+  .logo {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .logo img {
+    width: 100%;
+    margin-left: -2rem;
+  }
+
+  .logo p {
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-left: -1rem;
+  }
+
+  .scanner-img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .scanner-img h3 {
+    margin-left: 1rem;
+  }
+
+  .scanner-img p {
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-left: -1rem;
+  }
+
+  .scanner-img img {
+    margin: 1rem;
+    margin-left: 4rem;
+  }
+
+  .menu-links ul {
+    display: flex;
+    column-gap: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .icon-links ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
