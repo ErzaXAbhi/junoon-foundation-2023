@@ -11,6 +11,8 @@ const heroStart = document.querySelector(".hero-start");
 const heroHeading = document.querySelector(".hero-heading");
 const heroPara = document.querySelector(".hero-para");
 const homeBtn = document.querySelector(".btn");
+const popUp = document.querySelector(".popup");
+const popUpMobile = document.querySelector(".popup-mobile");
 
 window.addEventListener("load", revealAnime);
 
@@ -31,7 +33,9 @@ function revealAnime() {
     .from(heroStart, { autoAlpha: 0, y: -50, delay: 0 })
     .from(heroHeading, { autoAlpha: 0, y: -50, delay: 0 })
     .from(heroPara, { autoAlpha: 0, y: -50, delay: 0 })
-    .from(homeBtn, { autoAlpha: 0, y: -50, delay: 0 });
+    .from(homeBtn, { autoAlpha: 0, y: -50, delay: 0 })
+    .from(popUp, { autoAlpha: 0, y: -50, delay: 0 })
+    .from(popUpMobile, { autoAlpha: 0, y: -50, delay: 0 });
 }
 
 // reveal on scroll animation js code
@@ -122,3 +126,28 @@ btnLeft.addEventListener("click", () => {
 const year = document.getElementById("current-year");
 
 year.innerHTML = new Date().getFullYear();
+
+// js code for pop up image
+
+// script.js
+const popup = document.getElementById("popup");
+const closeButton = document.getElementById("close-button");
+
+// Show the pop-up
+function openPopup() {
+  popup.style.display = "block";
+}
+
+// Close the pop-up
+function closePopup() {
+  popup.style.display = "none";
+}
+
+// Event listeners
+window.addEventListener("load", openPopup);
+closeButton.addEventListener("click", closePopup);
+popup.addEventListener("click", (event) => {
+  if (event.target === popup) {
+    closePopup();
+  }
+});
