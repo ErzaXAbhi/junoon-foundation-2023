@@ -10,6 +10,7 @@
   .header-logo {
     margin: 2rem;
     width: 60%;
+    margin-left: 6rem;
   }
 
   .menu {
@@ -119,7 +120,7 @@
   .our-projects-mobile {
     display: flex;
     flex-direction: column;
-    margin-top: -20rem;
+    margin-top: -10rem;
   }
 
   .our-projects-mobile .project-heading {
