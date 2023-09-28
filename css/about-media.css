@@ -104,8 +104,13 @@
   }
 
   .vision-img {
-    margin-top: -5rem;
-    margin-left: 2rem;
+    margin-top: -1rem;
+    margin-left: -1rem;
+  }
+
+  .vision-img img {
+    height: 100%;
+    width: 100%;
   }
 
   /* Mission */
