@@ -216,6 +216,10 @@ ul li {
   justify-content: space-between;
 }
 
+.about-para strong {
+  color: var(--dark);
+}
+
 .about-info p {
   color: var(--secondary);
   width: 80%;
@@ -241,7 +245,7 @@ ul li {
   border-radius: 5px;
   font-family: inherit;
   font-size: 1rem;
-  margin-top: 2rem;
+  margin-top: 0rem;
   cursor: pointer;
 }
 
