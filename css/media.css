@@ -8,9 +8,9 @@
 
 @media screen and (width <= 768px) {
   .navbar img {
-    width: 70%;
-    margin-top: 2rem;
-    margin-left: 4rem;
+    width: 50%;
+    margin-top: 3rem;
+    margin-left: 7rem;
   }
 
   .menu {
