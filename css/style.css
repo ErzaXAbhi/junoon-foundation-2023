@@ -647,13 +647,12 @@ ul li {
 /* volunteers */
 
 .volunteer {
-  background: url(../images/volunteers-1.jpg) no-repeat fixed;
+  background: url(../images/vol.jpg) center no-repeat fixed;
   background-size: cover;
   height: 100dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
-
   margin-top: 4rem;
 }
 
@@ -665,7 +664,7 @@ ul li {
 
 .volunteer h2 {
   color: var(--dark);
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 500;
   line-height: 1;
   text-align: center;
@@ -684,7 +683,7 @@ ul li {
 
 .volunteer ul {
   margin-top: 1rem;
-  color: var(--primary);
+
   margin-left: 2rem;
 }
 
@@ -692,28 +691,8 @@ ul li {
   margin: 0.5rem;
   list-style: circle;
   font-size: 1.2rem;
-}
-
-.volunteer-btn {
-  margin-left: 0.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 15rem;
-  height: 2.5rem;
-  background: var(--secondary);
-  border: none;
-  border-radius: 5px;
   color: var(--primary);
-  font-family: inherit;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-.volunteer-btn:hover {
-  background: var(--dark);
-  color: var(--primary);
-  transition: all 0.5s ease-in-out;
+  font-weight: 600;
 }
 
 /* footer */
