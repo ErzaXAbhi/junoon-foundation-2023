@@ -223,7 +223,7 @@
     background-position: 55%;
     background-size: cover;
     height: 100dvh;
-    margin-top: -5rem;
+    margin-top: -10rem;
   }
 
   .volunteer h2 {
@@ -254,8 +254,8 @@
     flex-direction: column;
     margin-top: 0rem;
     flex-wrap: wrap;
-    align-content: stretch;
-    align-items: baseline;
+    align-content: center;
+    align-items: stretch;
     justify-content: space-evenly;
   }
 
