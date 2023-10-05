@@ -703,7 +703,7 @@ ul li {
 /* footer */
 
 .footer {
-  height: 60dvh;
+  height: 80dvh;
   color: var(--secondary);
   margin: 2rem;
 }
@@ -726,10 +726,10 @@ ul li {
 }
 
 .footer-container {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 8rem;
   align-content: center;
   flex-wrap: nowrap;
 }
@@ -737,48 +737,15 @@ ul li {
 .logo {
   display: flex;
   flex-direction: column;
-  width: 30%;
-}
-
-.logo p {
-  width: 90%;
-  margin-top: 0.5rem;
 }
 
 .logo img {
-  width: 70%;
-}
-
-.scanner-img {
-  display: flex;
-  flex-direction: column;
-  width: 20%;
-  margin-top: 5rem;
-}
-
-.scanner-img h3 {
-  font-size: 2rem;
-  font-weight: 500;
-  line-height: 1;
-  width: 100%;
-  color: var(--dark);
-}
-
-.scanner-img img {
-  margin: 1rem;
-  width: 10rem;
-  height: 10rem;
-  border-radius: 5px;
-}
-
-.scanner-img p {
   width: 100%;
 }
 
 .menu-links ul {
-  display: flex;
-  column-gap: 1rem;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 .menu-links ul li {
@@ -816,9 +783,8 @@ ul li {
 }
 
 .icon-links ul {
-  display: flex;
-
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 .icon-links ul li {
