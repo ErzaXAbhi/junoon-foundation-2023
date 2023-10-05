@@ -123,8 +123,8 @@
   }
 
   .vision-img img {
-    height: 100%;
-    width: 100%;
+    max-width: 111%;
+    max-height: 100%;
   }
 
   /* Mission */
@@ -132,7 +132,7 @@
   .mission {
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
 
   .mission-text {
