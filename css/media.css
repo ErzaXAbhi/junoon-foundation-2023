@@ -223,7 +223,7 @@
     background-position: 55%;
     background-size: cover;
     height: 100dvh;
-    margin-top: 0rem;
+    margin-top: -5rem;
   }
 
   .volunteer h2 {
@@ -233,7 +233,7 @@
 
   .volunteer p {
     display: -webkit-box;
-    -webkit-line-clamp: 7;
+    -webkit-line-clamp: 10;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-align: justify;
@@ -275,13 +275,13 @@
 
     display: grid;
     grid-template-columns: 50% 50%;
-    margin-left: 3rem;
+    margin-left: 1rem;
   }
 
   .icon-links ul {
     display: grid;
     grid-template-columns: 55% 52%;
-    margin-left: 3rem;
+    margin-left: 1rem;
   }
 
   /* Add media queries for mobile responsiveness */
