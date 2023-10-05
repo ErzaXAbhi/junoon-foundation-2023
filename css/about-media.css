@@ -8,10 +8,9 @@
 
 @media screen and (width <= 768px) {
   .navbar img {
-    width: 75%;
-    margin-top: 2rem;
-    margin-left: 3rem;
-    visibility: hidden;
+    width: 50%;
+    margin-top: 3rem;
+    margin-left: 7rem;
   }
 
   .menu li {
@@ -179,62 +178,34 @@
   .footer-container {
     display: flex;
     flex-direction: column;
-    margin-top: -3rem;
+    margin-top: 0rem;
     flex-wrap: wrap;
-    align-content: stretch;
-    align-items: baseline;
+    align-content: center;
+    align-items: stretch;
     justify-content: space-evenly;
-  }
-
-  .logo {
-    margin: 1rem;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    text-align: justify;
   }
 
   .logo img {
-    width: 100%;
-    margin-left: -2rem;
-  }
-
-  .logo p {
-    width: 100%;
-    margin-top: 0.5rem;
-    margin-left: -1rem;
-  }
-
-  .scanner-img {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .scanner-img h3 {
-    margin-left: 1rem;
-  }
-
-  .scanner-img p {
-    width: 100%;
-    margin-top: 0.5rem;
-    margin-left: -1rem;
-  }
-
-  .scanner-img img {
-    margin: 1rem;
-    margin-left: 4rem;
+    width: 125%;
+    margin-left: -3rem;
   }
 
   .menu-links ul {
-    display: flex;
-    column-gap: 0rem;
+    /* display: flex;
+    column-gap: 1rem;
     flex-direction: row;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center; */
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 2rem;
   }
 
   .icon-links ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 52% 52%;
+    margin-left: 2rem;
   }
 }
