@@ -31,7 +31,7 @@
     <div class="container">
       <nav class="navbar" id="navbar">
         <img
-          src="./images/junoon_logo.png"
+          src="./images/Junoon logo-05.png"
           alt="junoon foundation logo"
           class="header-logo"
         />
@@ -88,7 +88,7 @@
     </section>
 
     <!-- Vision -->
-    <section class="vision">
+    <section class="vision" id="vision">
       <div class="vision-text">
         <h2>Vision:</h2>
         <p>
@@ -115,7 +115,7 @@
     </section>
 
     <!-- Mission -->
-    <section class="mission">
+    <section class="mission" id="mission">
       <div class="mission-img">
         <img
           src="./images/photo-21.jpg"
@@ -144,7 +144,7 @@
       </div>
     </section>
 
-    <section class="annual-report">
+    <section class="annual-report" id="annual-report">
       <div class="annual-report-heading">
         <h2>Annual Report</h2>
         <ul class="report-list">
@@ -178,26 +178,15 @@
             alt="junoon foundation logo"
             class="footer-logo"
           />
-          <p>
-            No third party agency is working on behalf of Junoon for any
-            recruitment, trainings, camps or other activities related to Junoon.
-            Please check/consult with Junoon directly to get correct
-            information.
-          </p>
-        </div>
-        <div class="scanner-img">
-          <h3>Scan & Donate</h3>
-          <p>
-            Daan Utsav 2023 – Participate And Help JUNOON With Little
-            Contribution
-          </p>
-          <img src="./images/scanner.jpg" alt="barcode image" />
         </div>
         <div class="menu-links">
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
+            <li><a href="#vision">Vision</a></li>
             <li><a href="https://junoonfoundation.wordpress.com/">Blogs</a></li>
+            <li><a href="#mission">Mission</a></li>
+            <li><a href="#annual-report">Reports</a></li>
           </ul>
         </div>
         <div class="icon-links">
@@ -297,31 +286,6 @@
           },
         });
 
-        // mission
-        gsap.from(".mission-text", {
-          x: 200,
-          autoAlpha: 0,
-          ease: "linear",
-          duration: 0.5,
-          scrollTrigger: {
-            trigger: ".mission-text",
-            start: "top 20%",
-            end: "bottom",
-          },
-        });
-
-        gsap.from(".mission-img", {
-          x: -200,
-          autoAlpha: 0,
-          ease: "linear",
-          duration: 0.5,
-          scrollTrigger: {
-            trigger: ".mission-img",
-            start: "top 20%",
-            end: "bottom",
-          },
-        });
-
         // vision
         gsap.from(".vision-text", {
           x: -200,
@@ -343,6 +307,31 @@
           scrollTrigger: {
             trigger: ".vision-img",
             start: "top 30%",
+            end: "bottom",
+          },
+        });
+
+        // mission
+        gsap.from(".mission-text", {
+          x: 200,
+          autoAlpha: 0,
+          ease: "linear",
+          duration: 0.5,
+          scrollTrigger: {
+            trigger: ".mission-text",
+            start: "top 20%",
+            end: "bottom",
+          },
+        });
+
+        gsap.from(".mission-img", {
+          x: -200,
+          autoAlpha: 0,
+          ease: "linear",
+          duration: 0.5,
+          scrollTrigger: {
+            trigger: ".mission-img",
+            start: "top 20%",
             end: "bottom",
           },
         });
