@@ -112,9 +112,9 @@
 
   .vision-text p {
     margin-top: 0.5rem;
-    margin-left: 2rem;
+    margin-left: -1rem;
     text-align: left;
-    width: 130%;
+    width: 135%;
   }
 
   .vision-img {
