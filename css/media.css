@@ -223,7 +223,7 @@
     background-position: 55%;
     background-size: cover;
     height: 100dvh;
-    margin-top: -10rem;
+    margin-top: -15rem;
   }
 
   .volunteer h2 {
@@ -233,10 +233,10 @@
 
   .volunteer p {
     display: -webkit-box;
-    -webkit-line-clamp: 10;
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    text-align: justify;
+    text-align: center;
   }
 
   /* footer */
@@ -259,11 +259,9 @@
     justify-content: space-evenly;
   }
 
-  .logo {
-    margin: 1rem;
-    display: flex;
-    width: 100%;
-    margin-left: -1rem;
+  .logo img {
+    width: 125%;
+    margin-left: -2rem;
   }
 
   .menu-links ul {
@@ -275,13 +273,13 @@
 
     display: grid;
     grid-template-columns: 50% 50%;
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
 
   .icon-links ul {
     display: grid;
     grid-template-columns: 55% 52%;
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
 
   /* Add media queries for mobile responsiveness */
