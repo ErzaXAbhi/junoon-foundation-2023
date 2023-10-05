@@ -41,7 +41,7 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
 }
@@ -64,8 +64,8 @@ video {
   z-index: 9999;
 }
 
-.navbar .sticky .menu {
-  margin-left: -1rem;
+.navbar.sticky ul {
+  margin: 1rem;
 }
 
 .navbar.sticky li {
@@ -138,7 +138,7 @@ ul li {
   color: var(--primary);
   font-size: 1.1rem;
   font-weight: 500;
-  text-align: center;
+  text-align: justify;
   width: 45%;
   visibility: hidden;
 }
@@ -196,7 +196,7 @@ ul li {
 .about-heading {
   display: flex;
   justify-content: center;
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 
 .aboutUs h2 {
@@ -217,8 +217,9 @@ ul li {
 
 .about-info p {
   color: var(--secondary);
-  width: 80%;
+  width: 65%;
   font-weight: 500;
+  text-align: justify;
 }
 
 .about-img {
@@ -227,7 +228,7 @@ ul li {
 }
 
 .about-img img {
-  max-width: 80%;
+  max-width: 90%;
   max-height: 100%;
   border-radius: 0.25rem;
 }
@@ -272,7 +273,7 @@ ul li {
 .project-heading {
   display: flex;
   justify-content: center;
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 
 .our-projects h2 {
@@ -293,7 +294,7 @@ ul li {
   justify-content: center;
   align-items: center;
   background-color: var(--secondary);
-  max-width: 30%;
+  max-width: 31%;
   border-radius: 0.25rem;
 }
 
@@ -306,9 +307,9 @@ ul li {
 
 .project p {
   color: var(--primary);
-  width: 98%;
+  width: 90%;
   margin-top: 1rem;
-  text-align: center;
+  text-align: justify;
 }
 
 .project img {
@@ -541,11 +542,12 @@ ul li {
 .blog {
   display: flex;
   flex-direction: column;
-  background: var(--secondary);
+  background: var(--primary);
   margin: 4rem 1.5rem;
   border-radius: 0.3rem;
   width: 20rem;
   height: 80%;
+  border: 2px solid #000000;
 }
 
 .blog img {
@@ -554,23 +556,32 @@ ul li {
 }
 
 .blog h3 {
-  color: var(--primary);
+  color: var(--dark);
   font-weight: 500;
   margin: 0.5rem;
   font-size: 1.1rem;
 }
 
 .blog h6 {
-  color: var(--primary);
+  color: var(--dark);
   font-weight: 500;
   margin: 0.5rem;
   font-size: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .blog p {
   margin: 0.5rem;
-  color: var(--primary);
+  color: var(--dark);
   font-weight: 300;
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .blog-link a {
@@ -584,17 +595,17 @@ ul li {
   align-items: center;
   width: 10rem;
   height: 2.5rem;
-  background: var(--primary);
+  background: var(--dark);
   border: none;
   border-radius: 5px;
-  color: var(--dark);
+  color: var(--primary);
   font-family: inherit;
   font-size: 1rem;
   cursor: pointer;
 }
 
 .blog-btn:hover {
-  background: var(--dark);
+  background: var(--secondary);
   color: var(--primary);
   transition: all 0.5s ease-in-out;
 }
@@ -603,15 +614,17 @@ ul li {
   text-decoration: none;
 }
 
+.blogs ul {
+  margin-top: -2rem;
+}
+
 .doctor_list a {
   position: relative;
   text-decoration: none;
-  font-weight: bolder;
-  padding-right: 2.5rem;
+  font-weight: 500;
   font-size: 1.625rem;
   letter-spacing: 0.5;
   color: var(--dark);
-  font-weight: 500;
   margin: 1rem;
 }
 
@@ -627,7 +640,7 @@ ul li {
 }
 
 .doctor_list a:hover::before {
-  width: 80%;
+  width: 100%;
   transform: scaleX(1);
   transform-origin: left;
 }
@@ -657,6 +670,7 @@ ul li {
   line-height: 1;
   text-align: center;
   z-index: 999;
+  text-align: justify;
 }
 
 .volunteer p {
@@ -669,6 +683,7 @@ ul li {
   font-size: 1.2rem;
   text-align: center;
   z-index: 999;
+  text-align: justify;
 }
 
 .volunteer ul {
