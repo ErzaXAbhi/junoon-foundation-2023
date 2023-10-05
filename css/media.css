@@ -49,6 +49,10 @@
     margin-top: 1rem;
   }
 
+  .hero-header p {
+    text-align: center;
+  }
+
   /* About us */
 
   .aboutUs {
@@ -78,7 +82,7 @@
     overflow: hidden;
     margin-top: 0rem;
     margin-left: 1rem;
-    text-align: left;
+    text-align: justify;
   }
 
   .about-para .btn-about {
@@ -138,7 +142,7 @@
   }
 
   .project p {
-    text-align: center;
+    text-align: justify;
   }
 
   /* Gallery */
@@ -177,7 +181,7 @@
   .blog {
     display: flex;
     flex-direction: column;
-    background: var(--secondary);
+    background: var(--primary);
     margin: 2rem 3rem;
     border-radius: 0.3rem;
     width: 17rem;
@@ -185,7 +189,8 @@
   }
 
   .blogs ul {
-    margin-top: 2rem;
+    margin-top: -1rem;
+    margin-left: 1rem;
   }
 
   .blog p {
@@ -217,12 +222,13 @@
     background: url(../images/volunteers-1.jpg) center no-repeat;
     background-position: 55%;
     background-size: cover;
-    height: 160dvh;
+    height: 140dvh;
     margin-top: -20rem;
   }
 
   .volunteer h2 {
     font-size: 2rem;
+    justify-content: center;
   }
 
   .volunteer p {
