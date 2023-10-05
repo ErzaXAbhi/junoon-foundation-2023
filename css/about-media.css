@@ -60,7 +60,7 @@
 
   .about {
     flex-direction: column;
-    margin-top: 25rem;
+    margin-top: 15rem;
   }
 
   .about-video {
@@ -79,7 +79,7 @@
 
   .about-text h2 {
     margin-top: -7rem;
-    margin-left: -2rem;
+    margin-left: -3rem;
   }
 
   .about-text p {
