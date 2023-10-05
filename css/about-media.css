@@ -105,6 +105,11 @@
     width: 100%;
   }
 
+  .vision-text h2 {
+    margin-top: -7rem;
+    margin-left: -3rem;
+  }
+
   .vision-img {
     margin-top: 2rem;
     margin-left: -1rem;
