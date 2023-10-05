@@ -223,7 +223,7 @@
     background-position: 55%;
     background-size: cover;
     height: 140dvh;
-    margin-top: -20rem;
+    margin-top: 0rem;
   }
 
   .volunteer h2 {
@@ -271,14 +271,12 @@
 
     display: grid;
     grid-template-columns: 50% 50%;
-    margin: 1rem;
     margin-left: 3rem;
   }
 
   .icon-links ul {
     display: grid;
-    grid-template-columns: 50% 50%;
-    margin: 1rem;
+    grid-template-columns: 52% 52%;
     margin-left: 3rem;
   }
 
