@@ -132,7 +132,7 @@
   .mission {
     display: flex;
     flex-direction: column;
-    margin-top: 13rem;
+    margin-top: 7rem;
   }
 
   .mission-text {
