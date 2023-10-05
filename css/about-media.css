@@ -60,11 +60,12 @@
 
   .about {
     flex-direction: column;
-    margin-top: 15rem;
+    margin-top: 25rem;
   }
 
   .about-video {
     margin-top: 10rem;
+    margin-left: -2.5rem;
   }
 
   .about-text {
@@ -78,12 +79,14 @@
 
   .about-text h2 {
     margin-top: -7rem;
-    margin-left: -1rem;
+    margin-left: -2rem;
   }
 
   .about-text p {
     margin-top: 0.5rem;
-    margin-left: -1rem;
+    margin-left: -4rem;
+    text-align: left;
+    width: 150%;
   }
 
   iframe {
@@ -93,7 +96,7 @@
   /* Vision */
 
   .vision {
-    margin-top: 35rem;
+    margin-top: 40rem;
     flex-direction: column;
     margin-left: 3rem;
   }
