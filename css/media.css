@@ -222,7 +222,7 @@
     background: url(../images/volunteers-1.jpg) center no-repeat;
     background-position: 55%;
     background-size: cover;
-    height: 140dvh;
+    height: 160dvh;
     margin-top: 0rem;
   }
 
@@ -276,7 +276,7 @@
 
   .icon-links ul {
     display: grid;
-    grid-template-columns: 52% 52%;
+    grid-template-columns: 55% 52%;
     margin-left: 3rem;
   }
 
