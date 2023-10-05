@@ -222,7 +222,7 @@
     background: url(../images/volunteers-1.jpg) center no-repeat;
     background-position: 55%;
     background-size: cover;
-    height: 160dvh;
+    height: 100dvh;
     margin-top: 0rem;
   }
 
@@ -232,7 +232,11 @@
   }
 
   .volunteer p {
-    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: justify;
   }
 
   /* footer */
