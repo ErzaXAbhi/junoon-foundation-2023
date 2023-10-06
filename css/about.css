@@ -147,7 +147,7 @@ ul li {
   height: 100dvh;
   display: flex;
   justify-content: space-around;
-  margin: 7rem;
+  margin: 2rem;
 }
 
 .about-text {
@@ -191,7 +191,7 @@ ul li {
   height: 100dvh;
   display: flex;
   justify-content: space-around;
-  margin: 5rem;
+  margin: 2rem;
 }
 
 .vision-text {
@@ -236,7 +236,7 @@ ul li {
   height: 100dvh;
   display: flex;
   justify-content: space-around;
-  margin: 7rem;
+  margin: 2rem;
 }
 
 .mission-text {
@@ -289,7 +289,7 @@ ul li {
   justify-content: center;
   background: url(../images/img_9.jpg) center no-repeat;
   background-size: cover;
-  margin: 6rem;
+  margin: 2rem;
   border-radius: 60px;
   background-position: center;
   visibility: hidden;
