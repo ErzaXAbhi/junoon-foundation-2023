@@ -27,7 +27,7 @@ body {
   position: relative;
   overflow: hidden;
   display: flex;
-  background: url(../images/photo-24.jpg) center no-repeat;
+  background: url(../images/img_8.jpg) center no-repeat;
   background-size: cover;
 }
 
@@ -35,7 +35,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.4);
   width: 100%;
   height: 100%;
 }
@@ -123,12 +123,12 @@ ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
-  margin-left: 7rem;
+  margin-top: 1rem;
+  margin-left: 10rem;
 }
 
 .hero-header h1 {
-  font-size: 7rem;
+  font-size: 6rem;
   color: var(--primary);
   font-weight: 500;
   visibility: hidden;
@@ -147,7 +147,7 @@ ul li {
   height: 100dvh;
   display: flex;
   justify-content: space-around;
-  margin: 5rem;
+  margin: 7rem;
 }
 
 .about-text {
@@ -236,7 +236,7 @@ ul li {
   height: 100dvh;
   display: flex;
   justify-content: space-around;
-  margin: 5rem;
+  margin: 7rem;
 }
 
 .mission-text {
@@ -284,10 +284,10 @@ ul li {
 /* Annual report */
 
 .annual-report {
-  height: 50dvh;
+  height: 70dvh;
   display: flex;
   justify-content: center;
-  background: url(../images/photo-14.jpg) center no-repeat;
+  background: url(../images/img_9.jpg) center no-repeat;
   background-size: cover;
   margin: 6rem;
   border-radius: 60px;
@@ -299,7 +299,7 @@ ul li {
   color: var(--secondary);
   font-size: 4rem;
   font-weight: 500;
-  margin-top: 1.5rem;
+  margin-top: 5.5rem;
   z-index: 999;
 }
 
