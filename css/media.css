@@ -65,7 +65,7 @@
 
   .aboutUs h2 {
     font-size: 2.5rem;
-    margin-right: 0rem;
+    margin-right: 2rem;
   }
 
   .about-info {
@@ -75,13 +75,13 @@
   }
 
   .about-info p {
-    width: 90%;
+    width: 100%;
     display: -webkit-box;
-    -webkit-line-clamp: 29;
+    -webkit-line-clamp: 36;
     -webkit-box-orient: vertical;
     overflow: hidden;
     margin-top: 0rem;
-    margin-left: 1rem;
+    margin-left: -1rem;
     text-align: justify;
   }
 
