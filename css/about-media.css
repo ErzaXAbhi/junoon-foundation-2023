@@ -142,7 +142,7 @@
   .mission {
     display: flex;
     flex-direction: column;
-    margin-top: 7rem;
+    margin-top: 3rem;
   }
 
   .mission-text {
@@ -152,19 +152,19 @@
   }
 
   .mission-text p {
-    width: 150%;
+    width: 110%;
     margin-bottom: 0.5rem;
     text-align: left;
-    margin-left: -3rem;
+    margin-left: 0rem;
   }
 
   .mission-img {
     margin-top: 2rem;
-    margin-left: -3rem;
+    margin-left: 0rem;
   }
 
   .mission-img img {
-    max-width: 120%;
+    max-width: 100%;
     max-height: 100%;
   }
 
