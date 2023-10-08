@@ -274,11 +274,12 @@ ul li {
   display: flex;
   justify-content: center;
   padding-top: 4rem;
+  margin-bottom: -1rem;
 }
 
 .our-projects h2 {
   color: var(--dark);
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-weight: 500;
 }
 
@@ -330,13 +331,13 @@ ul li {
 
 .gallery h2 {
   color: var(--dark);
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-weight: 500;
 }
 
 .gallery-container {
   position: relative;
-  height: 500px;
+  height: 450px;
   max-width: 900px;
   margin: 0rem auto 0;
 }
@@ -525,11 +526,12 @@ ul li {
   display: flex;
   justify-content: center;
   padding-top: 5rem;
+  margin-bottom: -1rem;
 }
 
 .blogs h2 {
   color: var(--dark);
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-weight: 500;
 }
 
@@ -660,7 +662,7 @@ ul li {
 .volunteer-heading {
   display: flex;
   justify-content: center;
-  padding-top: 10rem;
+  padding-top: 4rem;
 }
 
 .volunteer h2 {
@@ -679,7 +681,7 @@ ul li {
   font-weight: 500;
   width: 80%;
   margin-left: 2rem;
-  margin-top: 2rem;
+  margin-top: 5rem;
   font-size: 1.2rem;
   text-align: center;
   z-index: 999;
@@ -694,7 +696,7 @@ ul li {
 
 .volunteer ul li {
   margin: 0.5rem;
-  list-style: circle;
+  list-style: none;
   font-size: 1.2rem;
   color: var(--primary);
   font-weight: 600;
