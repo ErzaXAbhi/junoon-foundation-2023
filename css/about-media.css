@@ -69,12 +69,12 @@
 
   .about {
     flex-direction: column;
-    margin-top: 15rem;
+    margin-top: 5rem;
   }
 
   .about-video {
     margin-top: 10rem;
-    margin-left: -3rem;
+    margin-left: 2rem;
   }
 
   .about-text {
@@ -88,7 +88,8 @@
 
   .about-text h2 {
     margin-top: -7rem;
-    margin-left: -3rem;
+    margin-left: -2rem;
+    text-align: center;
   }
 
   .about-text p {
