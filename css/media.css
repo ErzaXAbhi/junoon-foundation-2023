@@ -82,7 +82,7 @@
     overflow: hidden;
     margin-top: 0rem;
     margin-left: -1rem;
-    text-align: justify;
+    text-align: left;
   }
 
   .about-para .btn-about {
@@ -97,7 +97,7 @@
 
   .about-img img {
     max-width: 100%;
-    margin-right: 1rem;
+    margin-right: 2rem;
   }
 
   /* reveal animation */
