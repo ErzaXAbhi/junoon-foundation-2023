@@ -81,7 +81,7 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     margin-top: 0rem;
-    margin-left: -3rem;
+    margin-left: -3.5rem;
     text-align: left;
   }
 
@@ -98,7 +98,7 @@
 
   .about-img img {
     max-width: 110%;
-    margin-right: 5rem;
+    margin-right: 4rem;
   }
 
   /* reveal animation */
