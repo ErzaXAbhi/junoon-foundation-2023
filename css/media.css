@@ -252,6 +252,7 @@
   }
 
   .footer h1 span {
+    display: block;
     margin-top: 1rem;
   }
 
