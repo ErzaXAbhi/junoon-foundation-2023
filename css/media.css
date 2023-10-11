@@ -75,7 +75,7 @@
   }
 
   .about-info p {
-    width: 125%;
+    width: 120%;
     display: -webkit-box;
     -webkit-line-clamp: 16;
     -webkit-box-orient: vertical;
