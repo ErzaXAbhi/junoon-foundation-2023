@@ -251,6 +251,10 @@
     margin-bottom: 1rem;
   }
 
+  .footer-heading h1 span {
+    margin-top: 1rem;
+  }
+
   .footer-container {
     display: flex;
     flex-direction: column;
