@@ -75,13 +75,13 @@
   }
 
   .about-info p {
-    width: 110%;
+    width: 120%;
     display: -webkit-box;
     -webkit-line-clamp: 16;
     -webkit-box-orient: vertical;
     overflow: hidden;
     margin-top: 0rem;
-    margin-left: -2rem;
+    margin-left: -3rem;
     text-align: left;
   }
 
