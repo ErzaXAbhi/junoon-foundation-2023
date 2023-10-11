@@ -163,6 +163,18 @@
     width: 100%;
   }
 
+  .gallery p {
+    padding: 0.5rem;
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    width: 100%;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color: var(--secondary);
+  }
+
   /* blogs */
 
   .blogs {

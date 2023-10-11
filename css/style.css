@@ -335,6 +335,10 @@ ul li {
   font-weight: 500;
 }
 
+.gallery p {
+  display: none;
+}
+
 .gallery-container {
   position: relative;
   height: 450px;
