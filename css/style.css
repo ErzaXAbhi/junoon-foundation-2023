@@ -656,7 +656,7 @@ ul li {
 .volunteer {
   background: url(../images/img_7.jpg) center no-repeat fixed;
   background-size: cover;
-  height: 100dvh;
+  height: 110dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
