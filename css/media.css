@@ -75,7 +75,7 @@
   }
 
   .about-info p {
-    width: 130%;
+    width: 125%;
     display: -webkit-box;
     -webkit-line-clamp: 16;
     -webkit-box-orient: vertical;
@@ -92,6 +92,7 @@
   .about-img {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 2rem;
   }
 
