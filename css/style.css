@@ -195,7 +195,7 @@ ul li {
 .about-heading {
   display: flex;
   justify-content: center;
-  padding-top: 4rem;
+  padding-top: 4.8rem;
 }
 
 .aboutUs h2 {
@@ -217,7 +217,7 @@ ul li {
 
 .about-info p {
   color: var(--secondary);
-  width: 70%;
+  width: 95%;
   font-weight: 500;
   text-align: justify;
 }
@@ -660,13 +660,13 @@ ul li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 
 .volunteer-heading {
   display: flex;
   justify-content: center;
-  padding-top: 4rem;
+  padding-top: 7rem;
 }
 
 .volunteer h2 {
