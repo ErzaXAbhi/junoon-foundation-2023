@@ -204,6 +204,11 @@
     font-size: 3rem;
   }
 
+  .footer h1 span {
+    display: block;
+    margin-top: 1rem;
+  }
+
   .footer-heading {
     margin-bottom: 1rem;
   }
