@@ -562,6 +562,10 @@ ul li {
 }
 
 .blog h3 {
+  background: var(--secondary);
+  border-radius: 5px;
+  width: 70%;
+  text-align: center;
   color: var(--dark);
   font-weight: 500;
   margin: 0.5rem;
