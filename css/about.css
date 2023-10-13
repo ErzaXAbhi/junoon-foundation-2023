@@ -441,6 +441,7 @@ ul li {
 .icon-links ul li {
   list-style: none;
   margin: 0.5rem;
+  font-weight: 500;
 }
 
 .icon-links i {
